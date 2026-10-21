@@ -7,7 +7,6 @@ namespace qudiv::testing {
     void run_register_tests();
     void run_statevector_tests();
 }
-// Now we experiment with branches
 
 int main() {
 
