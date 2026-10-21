@@ -149,7 +149,7 @@
     <ClCompile Include="test_utils.hpp" />
     <ClCompile Include="XGate.cpp" />
     <ClCompile Include="ZGate.cpp" />
-    <ClCompile Include="ZGate.hpp" />
+    <ClInclude Include="ZGate.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gate.hpp" />

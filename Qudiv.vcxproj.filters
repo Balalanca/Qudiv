@@ -42,9 +42,6 @@
     <ClCompile Include="XGate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ZGate.hpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="ZGate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -63,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="XGate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGate.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
