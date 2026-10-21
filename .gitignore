@@ -1,0 +1,31 @@
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+
+# Compiled output
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Compiler-generated files
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.ipch
+*.tlog
+*.lastbuildstate
+
+# Python cache (useful later)
+__pycache__/
+*.pyc
+
+# Python virtual environments
+.venv/
+venv/
