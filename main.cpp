@@ -2,10 +2,11 @@
 #include <iostream>
 #include "test_utils.hpp"
 
-// Declarations of functions defined in other .cpp files
+// Test functions defined in other .cpp files
 namespace qudiv::testing {
     void run_register_tests();
     void run_statevector_tests();
+    void testGates();
 }
 
 int main() {
@@ -13,14 +14,20 @@ int main() {
     using namespace qudiv::testing;
 
     std::cout << "============================\n";
-    std::cout << "       QUDIV TESTS\n";
+    std::cout << "         QUDIV TESTS\n";
     std::cout << "============================\n";
 
+    // QuantumRegister tests
     run_register_tests();
+
+    // StateVector tests
     run_statevector_tests();
 
+    // XGate and ZGate tests
+    testGates();
+
     std::cout << "\n============================\n";
-    std::cout << "          RESULTS\n";
+    std::cout << "       FINAL RESULTS\n";
     std::cout << "============================\n";
 
     std::cout << "Passed: " << passed << '\n';

@@ -22,7 +22,11 @@ namespace qudiv {
 
 		std::complex<double> amplitude(std::size_t index) const;
 
+		std::complex<double>& amplitude(std::size_t index);
+
 		void assign_amplitudes();
+
+		const QuantumRegister& getRegister() const;
 	};
 
 }

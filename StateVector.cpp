@@ -26,6 +26,14 @@ namespace qudiv {
 		return amplitudes.at(index);
 	}
 
+	std::complex<double>& StateVector::amplitude(std::size_t index) {
+		return amplitudes.at(index);
+	}
+
+	const QuantumRegister& StateVector::getRegister() const{
+		return reg;
+	}
+
 	void StateVector::check_normalization() const {
 		// 3 cases: their squares add up to 1, same length as total_dimension, isfinite
 		
