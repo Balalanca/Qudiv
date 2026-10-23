@@ -48,6 +48,9 @@
     <ClCompile Include="test_gates.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="FGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuantumRegister.hpp">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ZGate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FGate.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

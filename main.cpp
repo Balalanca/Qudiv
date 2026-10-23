@@ -23,7 +23,7 @@ int main() {
     // StateVector tests
     run_statevector_tests();
 
-    // XGate and ZGate tests
+    // XGate, ZGate and FGate tests
     testGates();
 
     std::cout << "\n============================\n";

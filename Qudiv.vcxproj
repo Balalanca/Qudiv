@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FGate.cpp" />
     <ClCompile Include="Gate.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QuantumRegister.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="test_utils.hpp" />
     <ClCompile Include="XGate.cpp" />
     <ClCompile Include="ZGate.cpp" />
+    <ClInclude Include="FGate.hpp" />
     <ClInclude Include="ZGate.hpp" />
   </ItemGroup>
   <ItemGroup>
