@@ -36,12 +36,39 @@
     <ClCompile Include="test_utils.hpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_gates.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FGate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QuantumRegister.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StateVector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XGate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZGate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FGate.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

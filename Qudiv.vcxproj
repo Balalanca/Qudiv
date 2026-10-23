@@ -139,16 +139,25 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FGate.cpp" />
+    <ClCompile Include="Gate.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QuantumRegister.cpp" />
     <ClCompile Include="StateVector.cpp" />
+    <ClCompile Include="test_gates.cpp" />
     <ClCompile Include="test_register.cpp" />
     <ClCompile Include="test_stateVector.cpp" />
     <ClCompile Include="test_utils.hpp" />
+    <ClCompile Include="XGate.cpp" />
+    <ClCompile Include="ZGate.cpp" />
+    <ClInclude Include="FGate.hpp" />
+    <ClInclude Include="ZGate.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Gate.hpp" />
     <ClInclude Include="QuantumRegister.hpp" />
     <ClInclude Include="StateVector.hpp" />
+    <ClInclude Include="XGate.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
